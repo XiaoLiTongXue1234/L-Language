@@ -1,7 +1,7 @@
-package l.lang;
+package l.io;
 
 public class InputStream {
-    public InputStream(String name){
+    public InputStream(){
         
     }
 }

@@ -1,10 +1,10 @@
-package l.lang;
+package l.io;
 
 public class OutputStream {
-    public OutputStream(String name){
+    public OutputStream(){
         
     }
-    public void println(String s) {
+    public void println(String& s) {
         
     }
 }
