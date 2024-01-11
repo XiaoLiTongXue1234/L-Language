@@ -16,7 +16,7 @@ package com.l.example;
 
 public class HelloWorld {
     public static void main(String[] arga){
-        SystemOutputStream.println("Hello,world!");
+        System.output.println("Hello,world!");
     }
 }
 ```
@@ -29,7 +29,7 @@ package com.l.example;
 
 public class Test1 {
     public static void main(String[] arga) {
-        SystemOutputStream.println(add(1,2));
+        System.output.println(add(1,2));
     }
     private static int add(int& a,int& b) {
         return a+b;
@@ -45,8 +45,8 @@ package com.l.example;
 
 public class Test2 {
     public static void main(String[] arga) {
-        String in=SystemInputStream.inputLine();
-        SystemOutputStream.println(in);
+        String in=System.input.inputLine();
+        System.output.println(in);
     }
 }
 ```
@@ -65,7 +65,7 @@ public class Test3 {
         InputStream inputStream=new InputStream("test.txt");
         String[] lines=inputStream.readLines();
         for (String s:lines) {
-            SystemOutputStream.println(s);
+            System.output.println(s);
         }
     }
 }
